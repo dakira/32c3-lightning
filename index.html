@@ -31,20 +31,6 @@
     <!--[if lt IE 9]>
     <script src="lib/js/html5shiv.js"></script>
     <![endif]-->
-
-    <!-- Customized Styles -->
-    <style type="text/css">
-      /* Shadows for all screenshot slides */
-      .shadowh2 h2,
-      .shadowh2 h1 {
-        padding: 30px;
-        background-color: rgba(0,0,0,0.7);
-        background-image: none;
-        border-radius: 20px;
-        border: 1px solid rgba(255,255,255,0.7);
-        box-shadow: 0 0 45px #000 inset;
-      }
-    </style>
   </head>
 
   <body>
@@ -71,11 +57,10 @@
           <section>
             <h2>Socialized right here</h2>
             <img src="assets/images/29c3talk.jpg" />
-            <p><a href="https://media.ccc.de/v/29c3-5121-de-en-sind_faire_computer_moeglich_h264#video">Sind faire Computer möglich?</a> @29C3</p>
+            <small><a href="https://media.ccc.de/v/29c3-5121-de-en-sind_faire_computer_moeglich_h264#video">Sind faire Computer möglich?</a> @29C3</small>
           </section>
 
         </section>
-
 
         <section>
             <section>
@@ -83,20 +68,24 @@
               <small class="fragment">The quick version</small>
             </section>
             <section>
-              <h2>Resources</h2>
-              <img src="assets/images/angela-merkel.jpg" style="border:0" />
+              <h2>Informal artisanal mining</h2>
+              <img src="assets/images/bangka_informal_mining.jpg" class="clean"/>
+              <small>Miners working at a tin ore mine in Tanjung Pesona, District Sungai Liat, Bangka, Indonesia.</small>
             </section>
             <section>
-              <h2>Components</h2>
-              <img src="assets/images/conduit.jpg" style="border:0" />
+              <h2>Child labor</h2>
+              <img src="assets/images/bangka_child.jpg" class="clean"/>
+              <small>Febri Andika, a young tin miner</small>
             </section>
             <section>
-              <h2>Assembly</h2>
-              <img src="assets/images/ck4m-main-final.png" style="border:0" />
+              <h2>Health and safety</h2>
+              <img src="assets/images/bangka_injured.jpg" class="clean"/>
+              <small>Suge, a small-scale independent tin miner, suffered a broken arm and leg when the pit he was working in collapsed. His three friends were killed.</small>
             </section>
             <section>
-              <h2>Recycling</h2>
-              <img src="assets/images/how-about-no.jpg" style="border:0" />
+              <h2>Environment</h2>
+              <img src="assets/images/bangka_environment.jpg" class="clean"/>
+              <small>A disused tin mine near Bencah village.</small>
             </section>
         </section>
 
@@ -105,15 +94,27 @@
             <h2>What we did</h2>
             <ul>
               <li class="fragment">went to Maker Fair to tell people about the issues</li>
-              <li class="fragment">bainstorming workshop on improving fair mouse</li>
+              <li class="fragment">brainstorming workshop on improving fair mouse</li>
               <li class="fragment">tin as low hanging fruit?</li>
               <li class="fragment">maybe get recycled tin?</li>
               <li class="fragment">where to begin?</li>
             </ul>
           </section>
           <section>
-            <h1>Start a club</h1>
+            <h2>Start a club</h2>
             <img  src="assets/images/stempel.png" />
+          </section>
+          <section>
+            <h2>Get press coverage</h2>
+            <img src="assets/images/screen_heise.png" class="clean"/>
+          </section>
+          <section>
+            <h2>First Contact</h2>
+            <img src="assets/images/screen_heise.png" class="clean"/>
+          </section>
+          <section>
+            <h2>A year later</h2>
+            <img src="assets/images/maker_faire.jpg" class="clean" style="width: 40%; height: 40%"/>
           </section>
         </section>
 
@@ -132,8 +133,8 @@
           <h2>Links</h2>
             <ul>
               <li>http://fairloetet.de</li>
-              <li>http://nager-it.de</li>
               <li>http://faire-computer.de</li>
+              <li>http://nager-it.de</li>
             </ul>
         </section>
 
@@ -159,11 +160,11 @@
         // Optional libraries used to extend on reveal.js
         dependencies: [
           { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
           { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
           { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
           { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+          // { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          // { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
           // { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
           // { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
         ]
